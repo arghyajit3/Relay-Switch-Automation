@@ -3,7 +3,7 @@ Home Automation using relay-switch
 
 ## About this project
 This is a Project that I'm working on to automate most of the **Electronic devices** and *switches* in a home.
-This project is aimed at making control over our day to day devices much easier and faster to control at the palm of your hand, without replacing the traditional physical switches that we all still love and use today.
+This project is aimed at making control over our day to day devices much easier and faster to control at the palm of your hand, without replacing the traditional physical switches that we all still love for its simplicity and use today.
 
 ### Components Used
 1. Arduino Nano (for non-Wifi or Bluetooth compatibility / only IR support) (OR)
