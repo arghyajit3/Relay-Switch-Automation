@@ -117,29 +117,29 @@ void loop() {
     Serial.println(code, HEX);
 
     switch (code) {
-      case 0x7F80BA45:
-      case 0xFE01BA45:
+      case 0x6D92FD01:
+      case 0x35CAFD01:
         relay1State = !relay1State;
         digitalWrite(RELAY1, relay1State ? LOW : HIGH);
         Serial.println(relay1State ? "Relay1 ON" : "Relay1 OFF");
         break;
 
-      case 0x7E81BA45:
-      case 0xFD02BA45:
+      case 0x6C93FD01:
+      case 0x3EC1FD01:
         relay2State = !relay2State;
         digitalWrite(RELAY2, relay2State ? LOW : HIGH);
         Serial.println(relay2State ? "Relay2 ON" : "Relay2 OFF");
         break;
 
-      case 0xAE51BA45:
-      case 0xFC03BA45:
+      case 0x33CCFD01:
+      case 0x2DD2FD01:
         relay3State = !relay3State;
         digitalWrite(RELAY3, relay3State ? LOW : HIGH);
         Serial.println(relay3State ? "Relay3 ON" : "Relay3 OFF");
         break;
 
-      case 0xB24DBA45:
-      case 0xFB04BA45:
+      case 0x718EFD01:
+      case 0x6699FD01:
         relay4State = !relay4State;
         digitalWrite(RELAY4, relay4State ? LOW : HIGH);
         Serial.println(relay4State ? "Relay4 ON" : "Relay4 OFF");
